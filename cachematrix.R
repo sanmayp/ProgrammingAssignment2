@@ -55,7 +55,7 @@ cacheSolve <- function(x, ...) {
 
 ##Create matrix
 #x <- makeCacheMatrix(matrix(rnorm(5*5),nrow=5)) ; x$get()
-##Get inverted matrix
+##Get inverse matrix
 #inversex <- cacheSolve(x) ; inversex ## Computing inverse of matrix and caching its result and pass result
 #inversex <- cacheSolve(x) ; inversex ## Return Cached inverse
 #x$set(matrix(rnorm(5*5),nrow=5))
